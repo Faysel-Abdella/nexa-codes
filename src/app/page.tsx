@@ -6,6 +6,8 @@ import HowNexaWorks from "./sections/05_howWorks";
 import Services from "./sections/06_services";
 import Processes from "./sections/08_processSection";
 import Principles from "./sections/09_principlesSection";
+import Partners from "./sections/11_partners";
+import Footer from "./sections/13_footer";
 
 export default function Home() {
   return (
@@ -14,10 +16,12 @@ export default function Home() {
       <FeatureSection />
       <AboutCompany />
       <Samples />
-      {/* <HowNexaWorks /> */}
+      <HowNexaWorks />
       <Services />
       <Processes />
       <Principles />
+      <Partners/>
+      <Footer/>
     </main>
   );
 }
