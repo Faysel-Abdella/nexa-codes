@@ -16,6 +16,7 @@ const FeatureSection = () => {
     max-medium:pt-[100px]  max-medium:pb-[90px]
     max-small:pt-[60px] max-small:pb-[60px]
     "
+    id="service_features"
     >
       <div
         className="mb-[74px]

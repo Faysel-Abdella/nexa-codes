@@ -1,27 +1,27 @@
  const navBarLinks = [
     {
         label: "서비스 특징",
-        to: "#home"
+        to: "service_features"
     },
     {
         label: "강점",
-        to: "#home"
+        to: "strength"
     },
     {
         label: "진행과정",
-        to: "#home"
+        to: "processes"
     },
     {
         label: "포트폴리오",
-        to: "#home"
+        to: "portfolio"
     },
     {
         label: "블로그",
-        to: "#home"
+        to: "/blog"
     },
     {
         label: "문의하기",
-        to: "#home"
+        to: "contact_us"
     }
 ]
 

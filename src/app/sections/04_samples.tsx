@@ -9,6 +9,7 @@ const Samples = () => {
     max-largeMedium:flex-col max-largeMedium:items-center 
     max-small:px-9 max-small:gap-[60px]
     "
+    id="strength"
     >
       <SampleOne />
       <SampleTwo />

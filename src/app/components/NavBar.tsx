@@ -24,7 +24,7 @@ const NavBar = () => {
       "
       >
         <div>
-          <Image src={logo} alt="Logo" width={46.235} height={94} />
+          <Image src={logo} alt="Logo" width={76.235} height={104} />
         </div>
 
         <div
@@ -47,12 +47,15 @@ const NavBar = () => {
             <Link
               key={Math.random()}
               to={nav.to}
+              smooth={true}
               duration={500}
               spy={true}
               offset={-70}
               className="cursor-pointer"
+              href={`${nav.to == "/blog" ? "/blog" : ""}`}
+
             >
-              <span className="text-[#fff] z-[1000] font-poppins text-[14px] font-medium leading-[-0.54]">
+              <span className="text-[#fff] z-[1000] font-poppins text-[16px] font-medium leading-[-0.54]">
                 {nav.label}
               </span>
             </Link>

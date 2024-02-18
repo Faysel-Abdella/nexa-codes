@@ -6,7 +6,9 @@ import { processType } from "../data/processes";
 
 const Processes = () => {
   return (
-    <section className="max-container processes-section pt-[125px] pb-[160px] mt-10">
+    <section className="max-container processes-section pt-[125px] pb-[160px] mt-10"
+    id="processes"
+    >
       <main>
         <h2 className="text-[#fff] text-[50px] text-center font-bold tracking-[-1.5px]">
           진행과정

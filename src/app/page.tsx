@@ -7,6 +7,7 @@ import Services from "./sections/06_services";
 import Testimonials from "./sections/07_testimonials";
 import Processes from "./sections/08_processSection";
 import Principles from "./sections/09_principlesSection";
+import Portfolios from "./sections/10_portfolios";
 import Partners from "./sections/11_partners";
 import CallToAction from "./sections/12_callToAction";
 import Footer from "./sections/13_footer";
@@ -23,6 +24,7 @@ export default function Home() {
       <Testimonials/>
       <Processes />
       <Principles />
+      <Portfolios/>
       <Partners/>
       <CallToAction/>
       <Footer/>

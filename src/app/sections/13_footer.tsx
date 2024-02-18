@@ -2,7 +2,9 @@ import  logo  from "../assets/logo.svg"
 import Image from "next/image"
 export default function Footer() {
   return (
-    <section className="max-container processes-section flex items-center justify-center h-[330px]  mt-10 px-2" >
+    <section className="max-container processes-section flex items-center justify-center h-[330px]  mt-10 px-2" 
+    id="contact_us"
+    >
         <div className="flex  flex-col  items-center justify-center">
               <div className=" max-verySmall:mb-0 mb-[28px]">
           <Image src={logo} alt="Logo" width={80.235} height={150}  className="max-verySmall:w-[50px] max-verySmall:h-[80px]"/>
