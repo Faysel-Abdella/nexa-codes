@@ -78,11 +78,11 @@ export default function SliderFrame() {
 
       // Show only one dot at a time
       if (totalSlides <= 1) {
-        return null; // Do not render any dots if there is only one slide
+        return <></>; // Do not render any dots if there is only one slide
       }
 
       // Calculate the index of the active dot to show
-      const activeDotIndex = this.currentSlide % totalSlides;
+      const activeDotIndex = (this as any).currentSlide % totalSlides;
 
       // Determine whether the current dot is the active one
       const isActiveDot = i === activeDotIndex;
