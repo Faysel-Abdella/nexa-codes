@@ -15,7 +15,7 @@ interface testimonial {
 
 export default function Testimonial({ description1, description2, description3, description4, name, location }: testimonial) {
   return (
-    <div className=' bg-white py-4 w-[320px] h-[380px] rounded-2xl border border-solid border-gray-300 relative mx-4'>
+    <div className=' bg-white py-4 w-[320px] h-[410px] rounded-2xl border border-solid border-gray-300 relative mx-4'>
       <div className='flex justify-between items-center border-b border-solid border-gray-300 pb-6 mb-4 mx-2'>
         <div className='text-xs text-light-gray font-semibold'>{name}</div>
         <div className='flex items-center'>
