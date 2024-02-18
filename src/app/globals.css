@@ -141,6 +141,36 @@ body {
   z-index: -1;
 }
 
+.blog-bg {
+  position: relative;
+}
+
+.blog-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/images/blog-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.blog-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.3;
+  
+}
+
 .slick-slide > div {
   margin: 0 0.75rem;
 }

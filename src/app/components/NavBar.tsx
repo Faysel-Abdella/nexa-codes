@@ -17,14 +17,14 @@ const NavBar = () => {
   return (
     <header className="max-container">
       <nav
-        className="flex justify-between items-center pt-[50px] ml-[100px] mr-[60px] 
+        className="flex justify-between items-center max-md:items-start pt-[50px] ml-[100px] mr-[60px] 
         max-medium:pt-[20px] max-medium:ml-0 max-medium:mr-0 max-medium:px-5
       max-md:pt-5 max-md:ml-0 max-md:mr-0 max-md:px-5
       max-small:pt-2 
       "
       >
-        <div>
-          <Image src={logo} alt="Logo" width={76.235} height={104} />
+        <div className="max-md:items-start">
+          <Image src={logo} alt="Logo"  className="w-[76px] h-[104px] max-md:w-[35px] max-md:h-[20px] max-md:items-start" />
         </div>
 
         <div
