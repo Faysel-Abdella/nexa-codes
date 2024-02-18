@@ -5,7 +5,7 @@ import PartnersLogo from '../components/PartnersLogo';
 
 const Partners: React.FC = () => {
   return (
-    <main className="partners-bg px-20 pt-[100px] pb-[100px]
+    <main className="max-container partners-bg px-20 pt-[100px] pb-[100px]
     max-medium:pt-[200px]
     max-small:pt-[150px]
     max-small:px-0"

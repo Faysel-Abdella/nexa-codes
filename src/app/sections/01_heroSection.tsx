@@ -22,7 +22,7 @@ const HeroSection = () => {
       </nav>
       <div className="hero-content">
         <div
-          className=" flex flex-col justify-center items-center mt-[200px] 
+          className=" flex flex-col justify-center items-center mt-[100px] 
         max-largeMedium:mt-[100px] 
         max-medium:mt-[40px]
         max-extraSmall:mt-[10px]

@@ -1,10 +1,15 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Feature from "../components/Feature";
 import feature01 from "../assets/feature01.svg";
 import feature03 from "../assets/feature03.svg";
 
 const FeatureSection = () => {
+
+  const [clickedFeature, setClickedFeature] = useState(1)
+
   return (
     <section
       className="max-container bg-white pt-[190px] pb-[180px]
@@ -32,9 +37,10 @@ const FeatureSection = () => {
       "
       >
         <div
-          className={`bg-[#333] text-[#fff] flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#fff]
-          max-small:px-[15px] max-small:pt-[40px]
-          `}
+         className={`${clickedFeature == 1 ? "bg-[#333] text-[#fff]" : "bg-white text-black "} flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
+         max-small:px-[15px] max-small:pt-[40px]
+         `}
+         onClick={() => setClickedFeature(1)}
         >
           <p
             className={`mb-[29px] text-center text-[35px] font-medium
@@ -66,14 +72,16 @@ const FeatureSection = () => {
             className="max-small:hw-[200px] max-small:h-[150px]"
           />
           <div
-            className={`mt-[30px] flex justify-center items-center w-[302px] h-[69px] rounded-[34.50px] border border-white
+            className={`mt-[30px] flex justify-center items-center w-[302px] h-[69px] rounded-[34.50px] border border-[#D9D9D9]
             max-small:w-[200px] max-small:h-[40px]
+            
             `}
           >
             <span
-              className={`text-center text-white  text-[25px] font-light font-['Pretendard']
-              max-small:text-[18px]
-              `}
+             className={`text-center  ${clickedFeature == 1 ? "text-white" : "text-[#A4A4A4]" } text-[25px] font-light font-['Pretendard']
+             max-small:text-[18px]
+             
+             `}
             >
               결과물에 대한 걱정
             </span>
@@ -81,9 +89,10 @@ const FeatureSection = () => {
         </div>
 
         <div
-          className={`bg-white text-black flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
+          className={`${clickedFeature == 2 ? "bg-[#333] text-[#fff]" : "bg-white text-black "} flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
           max-small:px-[15px] max-small:pt-[40px]
           `}
+          onClick={() => setClickedFeature(2)}
         >
           <p
             className={`mb-[29px] text-center text-[35px] font-medium
@@ -121,7 +130,7 @@ const FeatureSection = () => {
             `}
           >
             <span
-              className={`text-center text-[#A4A4A4]  text-[25px] font-light font-['Pretendard']
+              className={`text-center  ${clickedFeature == 2 ? "text-white" : "text-[#A4A4A4]" } text-[25px] font-light font-['Pretendard']
               max-small:text-[18px]
               
               `}
@@ -130,10 +139,13 @@ const FeatureSection = () => {
             </span>
           </div>
         </div>
+
+
         <div
-          className={`bg-white text-black flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
+          className={`${clickedFeature == 3 ? "bg-[#333] text-[#fff]" : "bg-white text-black "} flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
           max-small:px-[15px] max-small:pt-[40px]
           `}
+          onClick={() => setClickedFeature(3)}
         >
           <p
             className={`mb-[29px] text-center text-[35px] font-medium
@@ -173,10 +185,10 @@ const FeatureSection = () => {
             `}
           >
             <span
-              className={`text-center text-[#A4A4A4]  text-[25px] font-light font-['Pretendard']
-              max-small:text-[18px]
-              
-              `}
+             className={`text-center  ${clickedFeature == 3 ? "text-white" : "text-[#A4A4A4]" } text-[25px] font-light font-['Pretendard']
+             max-small:text-[18px]
+             
+             `}
             >
               갑작스런 시간 지연
             </span>

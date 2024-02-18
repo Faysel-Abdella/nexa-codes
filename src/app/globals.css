@@ -151,7 +151,7 @@ body {
 
 @layer components {
   .max-container {
-    max-width: 1440px;
+    max-width: 1640px;
     margin: 0 auto;
   }
 
