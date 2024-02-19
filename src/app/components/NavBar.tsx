@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -13,6 +14,13 @@ import logo from "../assets/logo.svg";
 
 const NavBar = () => {
   const [navbar, setNavBar] = useState(false);
+  const route = useRouter();
+
+  const goToBlog = (page: string) => {
+    if (page == "/blog") {
+      route.push("/blog");
+    }
+  };
 
   return (
     <header className="max-container">
@@ -24,7 +32,11 @@ const NavBar = () => {
       "
       >
         <div className="max-md:items-start">
-          <Image src={logo} alt="Logo"  className="w-[76px] h-[104px] max-md:w-[35px] max-md:h-[20px] max-md:items-start" />
+          <Image
+            src={logo}
+            alt="Logo"
+            className="w-[76px] h-[104px] max-md:w-[35px] max-md:h-[20px] max-md:items-start"
+          />
         </div>
 
         <div
@@ -52,8 +64,7 @@ const NavBar = () => {
               spy={true}
               offset={-70}
               className="cursor-pointer"
-              href={`${nav.to == "/blog" ? "/blog" : ""}`}
-
+              onClick={() => goToBlog(nav.to)}
             >
               <span className="text-[#fff] z-[1000] font-poppins text-[16px] font-medium leading-[-0.54]">
                 {nav.label}
