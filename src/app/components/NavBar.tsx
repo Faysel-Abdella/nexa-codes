@@ -20,6 +20,7 @@ const NavBar = () => {
     if (page == "/blog") {
       route.push("/blog");
     }
+    setNavBar(false)
   };
 
   return (
