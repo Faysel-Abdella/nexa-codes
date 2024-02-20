@@ -3,6 +3,7 @@ import Service from "../components/Service";
 
 import serviceOne from "../assets/service_one.svg";
 import serviceTwo from "../assets/service_two.svg";
+import serviceThree from "../assets/service_three.svg"
 
 const Services = () => {
   return (
@@ -41,7 +42,7 @@ const Services = () => {
           title="검색엔진 최적화"
           description="광고노출? NO!"
           description2="자연스럽게 최상단 노출 OK"
-          image={serviceOne}
+          image={serviceThree}
         />
       </div>
     </main>

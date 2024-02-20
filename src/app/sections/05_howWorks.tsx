@@ -77,7 +77,7 @@ const HowNexaWorks = () => {
               alt='Simple 1'
             />
             <button
-              onClick={toggleDetailMode1}
+              onMouseOver={toggleDetailMode1}
               className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white'
             >
               +
@@ -102,7 +102,7 @@ const HowNexaWorks = () => {
               alt='Simple 2'
             />
             <button
-              onClick={toggleDetailMode2}
+              onMouseOver={toggleDetailMode2}
               className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white'
             >
               +
@@ -127,7 +127,7 @@ const HowNexaWorks = () => {
               alt='Simple 3'
             />
             <button
-              onClick={toggleDetailMode3}
+              onMouseOver={toggleDetailMode3}
               className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white'
             >
               +

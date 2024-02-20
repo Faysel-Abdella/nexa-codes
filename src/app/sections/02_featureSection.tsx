@@ -41,7 +41,7 @@ const FeatureSection = () => {
          className={`${clickedFeature == 1 ? "bg-[#333] text-[#fff]" : "bg-white text-black "} flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
          max-small:px-[15px] max-small:pt-[40px]
          `}
-         onClick={() => setClickedFeature(1)}
+         onMouseOver={() => setClickedFeature(1)}
         >
           <p
             className={`mb-[29px] text-center text-[35px] font-medium
@@ -93,7 +93,7 @@ const FeatureSection = () => {
           className={`${clickedFeature == 2 ? "bg-[#333] text-[#fff]" : "bg-white text-black "} flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
           max-small:px-[15px] max-small:pt-[40px]
           `}
-          onClick={() => setClickedFeature(2)}
+          onMouseOver={() => setClickedFeature(2)}
         >
           <p
             className={`mb-[29px] text-center text-[35px] font-medium
@@ -146,7 +146,7 @@ const FeatureSection = () => {
           className={`${clickedFeature == 3 ? "bg-[#333] text-[#fff]" : "bg-white text-black "} flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#D9D9D9]
           max-small:px-[15px] max-small:pt-[40px]
           `}
-          onClick={() => setClickedFeature(3)}
+          onMouseOver={() => setClickedFeature(3)}
         >
           <p
             className={`mb-[29px] text-center text-[35px] font-medium

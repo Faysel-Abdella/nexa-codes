@@ -38,7 +38,7 @@ const BlogPage = () => {
   }
 
   return (
-    <section className="max-container">
+    <section >
       <Hero />
       <BlogSearch />
 
