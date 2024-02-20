@@ -79,10 +79,13 @@ const HowNexaWorks = () => {
               className='inline w-[430px] h-[520px] max-largeMedium:h-[]'
               alt='Simple 1'
               placeholder="blur"
+              loading="lazy"
+
+
             />
             <button
               onMouseOver={toggleDetailMode1}
-              className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white'
+              className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white cursor-pointer'
             >
               +
             </button>
@@ -105,11 +108,13 @@ const HowNexaWorks = () => {
               className='inline w-[430px] h-[520px]'
               alt='Simple 2'
               placeholder="blur"
+              loading="lazy"
+
 
             />
             <button
               onMouseOver={toggleDetailMode2}
-              className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white'
+              className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white cursor-pointer'
             >
               +
             </button>
@@ -132,11 +137,12 @@ const HowNexaWorks = () => {
               className='inline w-[430px] h-[520px]'
               alt='Simple 3'
               placeholder="blur"
+              loading="lazy"
 
             />
             <button
               onMouseOver={toggleDetailMode3}
-              className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white'
+              className='text-6xl bg-D3D3D pt-1 pb-2 px-4 rounded-full font-thin absolute bottom-[2rem] right-8 text-white cursor-pointer'
             >
               +
             </button>
