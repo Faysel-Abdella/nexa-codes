@@ -34,9 +34,7 @@ body {
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url('/images/hero1.png');
-  background-position: center;
-  background-size: cover;
+  
   opacity: calc(50%);
   z-index: -1;
 }
@@ -47,11 +45,8 @@ hero-video {
 }
 
 
-
 .hero-video{
-  background-image: url('/images/hero1.png');
-  background-position: center;
-  background-size: cover;
+  object-fit: cover;
 }
 
 video[poster] {
