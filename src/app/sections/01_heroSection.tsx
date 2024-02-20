@@ -5,6 +5,7 @@ import Image from "next/image";
 import NavBar from "../components/NavBar";
 
 import rightArrow from "../assets/right-arrow.svg";
+import herobg from "../assets/herobackground.png"
 
 const HeroSection = () => {
   return (
