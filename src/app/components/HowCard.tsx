@@ -6,7 +6,7 @@ export default function HowCard({ detailedImage, text, header, buttonText }: any
       <Image
         src={detailedImage}
         alt='Detailed'
-        className='inline h-[520px] max-medium:h-[350px] max-extraSmall:h-[260px] max-medium:w-[700px] '
+        className='inline h-[520px] max-medium:h-[350px] max-extraSmall:h-[260px] max-medium:w-[700px] rounded-[30px]'
         priority={true}
         placeholder="blur"
 

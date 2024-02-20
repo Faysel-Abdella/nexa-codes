@@ -76,11 +76,10 @@ const HowNexaWorks = () => {
           <div className='relative'>
             <Image
               src={simple1}
-              className='inline w-[430px] h-[520px] max-largeMedium:h-[]'
+              className='inline w-[430px] h-[520px]'
               alt='Simple 1'
               placeholder="blur"
               loading="lazy"
-
 
             />
             <button
