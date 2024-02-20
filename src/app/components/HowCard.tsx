@@ -8,6 +8,8 @@ export default function HowCard({ detailedImage, text, header, buttonText }: any
         alt='Detailed'
         className='inline h-[520px] max-medium:h-[350px] max-extraSmall:h-[260px] max-medium:w-[700px] '
         priority={true}
+        placeholder="blur"
+
       />
       <div className='absolute max-medium:top-[30%] max-extraSmall:top-[20%] max-medium:translate-y-[-50%] inset-0 mb-[4rem] mt-[7rem]  max-medium:mt-[4rem] max-small:mt-[2rem]  font-normal medium:mb-[1rem] '>
         <h1 className='text-white font-semibold text-[44px] max-largeMedium:text-4xl max-medium:text-3xl max-midSmall:text-2xl max-small:text-xl max-extraSmall:text-lg max-verySmall:text-[13px] leading-[70px] max-extraSmall:leading-[25px] max-verySmall:leading-[20px] tracking-tighter mb-[1rem]  mx-[6rem] max-midSmall:mx-[3rem] max-extraSmall:mx-[1rem]     text-center'>

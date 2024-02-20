@@ -2,8 +2,11 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import dynamic from 'next/dynamic'
 
-import HowCard from '../components/HowCard';
+
+const HowCard = dynamic(() => import('../components/HowCard'))
+// import HowCard from '../components/HowCard';
 import simple1 from '../assets/how_nexa_works/simple1.png';
 import simple2 from '../assets/how_nexa_works/simple2.png';
 import simple3 from '../assets/how_nexa_works/simple3.png';
@@ -75,6 +78,7 @@ const HowNexaWorks = () => {
               src={simple1}
               className='inline w-[430px] h-[520px] max-largeMedium:h-[]'
               alt='Simple 1'
+              placeholder="blur"
             />
             <button
               onMouseOver={toggleDetailMode1}
@@ -100,6 +104,8 @@ const HowNexaWorks = () => {
               src={simple2}
               className='inline w-[430px] h-[520px]'
               alt='Simple 2'
+              placeholder="blur"
+
             />
             <button
               onMouseOver={toggleDetailMode2}
@@ -125,6 +131,8 @@ const HowNexaWorks = () => {
               src={simple3}
               className='inline w-[430px] h-[520px]'
               alt='Simple 3'
+              placeholder="blur"
+
             />
             <button
               onMouseOver={toggleDetailMode3}
