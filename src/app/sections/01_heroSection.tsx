@@ -14,7 +14,7 @@ const HeroSection = () => {
     before:content-[' '] before:absolute before:top-0 before:right-0 before:w-full before:h-full before:bg-black before:opacity-50
     "
     >
-      <video id="hero-video" className="hero-video " preload="none" autoPlay loop muted poster="/images/hero1.png">
+      <video id="hero-video" className="hero-video "  autoPlay loop muted poster="/images/hero1.png">
         <source src="/Videos/hero_video.mp4" type="video/mp4" />
         Your browser does not support the video tag. Try to use another browser
       </video>

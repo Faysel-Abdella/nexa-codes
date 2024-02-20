@@ -51,6 +51,7 @@ hero-video {
 
 video[poster] {
   object-fit: cover;
+  width: 100vw;
 }
 
 .how-one {
