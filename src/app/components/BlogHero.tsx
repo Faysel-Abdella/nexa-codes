@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import logo from "../assets/logo.svg";
@@ -14,12 +16,20 @@ import { AiOutlineClose } from "react-icons/ai";
 export default function Hero() {
   const [navbar, setNavBar] = useState(false);
 
+  const route = useRouter();
+
+  const goToHome = () => {
+      route.push("/");
+  };
+
   return (
     <div className="blog-bg px-2 py-6 max-medium:pt-2 relative ">
       {/* the navigation part */}
       <div className=" z-10">
         <nav className="p-4 flex justify-between mx-10 max-medium:mx-0 my-4 mt-0 relative">
-          <div className="z-10 flex space-x-6">
+          <div className="z-10 flex space-x-6 cursor-pointer"
+          onClick={goToHome}
+          >
             {/* <a className="text-white font-semibold cursor-pointer">SPARTA</a> */}
             <Image
               src={logo}
@@ -37,7 +47,9 @@ export default function Hero() {
         `}
           >
             <div className="z-10 flex max-md:flex-col max-md:pt-5 max-md:items-center max-md:gap-7 space-x-6">
-              <div className="flex self-center ml-8">
+              <div className="flex self-center ml-8"
+              onClick={() => setNavBar(false)}
+              >
                 <a className="text-white font-medium cursor-pointer">블로그</a>
                 <Image
                   src={filledArrow}
@@ -45,12 +57,24 @@ export default function Hero() {
                   className="fa-solid fa-sort-down text-white cursor-pointer"
                 />
               </div>
-              <a className="text-white  font-medium cursor-pointer">
+              <a className="text-white  font-medium cursor-pointer  "
+              onClick={() => setNavBar(false)}
+              
+              >
                 서비스 특징
               </a>
-              <a className="text-white font-medium cursor-pointer">강점</a>
-              <a className="text-white font-medium cursor-pointer">투자사</a>
-              <a className="text-white font-medium cursor-pointer">
+              <a className="text-white font-medium cursor-pointer "
+              onClick={() => setNavBar(false)}
+              
+              >강점</a>
+              <a className="text-white font-medium cursor-pointer "
+              onClick={() => setNavBar(false)}
+              
+              >투자사</a>
+              <a className="text-white font-medium cursor-pointer "
+              onClick={() => setNavBar(false)}
+              
+              >
                 포트폴리오
               </a>
               <a className="text-white font-medium cursor-pointer">진행과정</a>

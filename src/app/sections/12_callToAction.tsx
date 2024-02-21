@@ -5,8 +5,8 @@ import rightIcon from "../assets/call_to_action_arrow.svg"
 import { FaArrowRight } from "react-icons/fa6";
 const CallToAction=()=>{
 return <section className="mt-10">
-    <div className="relative">
-        <Image src={CallToImg}  alt="call-to-action" className="h-[550px] max-medium:h-[400px] max-small:h-[320px] max-extraSmall:h-[280px] w-full object-cover overflow-hidden "/>
+    <div className="relative ">
+        <Image src={CallToImg}  alt="call-to-action" className="h-[550px] medium:h-[650px] max-medium:h-[400px] max-small:h-[320px] max-extraSmall:h-[280px] w-full object-cover overflow-hidden "/>
         
         <div className="bg-[#000] bg-opacity-50 inset-0 absolute"></div>
         <div className="absolute  left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
