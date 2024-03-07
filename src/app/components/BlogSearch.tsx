@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import { Select } from "antd";
+
 import Image from "next/image";
 import icon from "../assets/search_icon.svg";
 import unfilled_icon from "../assets/unfilled_arrow.svg";
@@ -56,8 +58,27 @@ const BlogSearch = () => {
         </div>
 
         <div className="max-midSmall:flex max-midSmall:flex-col max-midSmall:items-center max-midSmall:justify-center">
-          
-          <div className="flex gap-2 items-center flex-shrink-0 bg-white  px-6 py-3 rounded-full border border-gray-300 cursor-pointer">
+          <div className="rounded-full">
+            <Select
+              defaultValue="option_1"
+              style={{ width: 110, fontSize: 24, borderRadius: "100px", 
+              height: 50 }}
+              suffixIcon={<Image
+                src={unfilled_icon}
+                alt="Down arrow"
+                className="w-[16px] h-[10px]"
+              />}
+              // className="bg-white  rounded-full border border-gray-300 cursor-pointer"         
+                   
+              options={[
+                { value: "option_1", label: "최신순" },
+                { value: "option_2", label: "옵션2" },
+                { value: "option_3", label: "옵션3" },
+              ]}
+            />
+          </div>
+
+          {/* <div className="flex gap-2 items-center flex-shrink-0 bg-white  px-6 py-3 rounded-full border border-gray-300 cursor-pointer">
             <button
               type="submit"
               className="text-nowrap text-gray-700 text-[15px]"
@@ -69,7 +90,7 @@ const BlogSearch = () => {
               alt="Down arrow"
               className="w-[19px] h-[13px]"
             />
-          </div>
+          </div> */}
 
           <p
             className="text-[15px] mt-2 text-veryLight-gray
@@ -86,7 +107,7 @@ const BlogSearch = () => {
           {allTags.map((tag, index) => (
             <div
               className={`flex justify-center items-center border border-light-border rounded-full py-1 px-[16px] cursor-pointer   text-[14px]
-              ${tags[index] ? "bg-black text-white" : "text-light-gray" }
+              ${tags[index] ? "bg-black text-white" : "text-light-gray"}
             
           `}
               onClick={() => {
