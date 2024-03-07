@@ -16,19 +16,19 @@ return <section className="mt-10">
                flex flex-col gap-3 space-y-1 
                max-extraSmall:gap-0
                font-[400]  ">
-                <p className="mb-4  
+                <h1 className="mb-4  
                 max-md:mb-2
                 max-small:mb-0
                 text-[35px]
                 max-md:text-[30px]
                 max-small:text-[25px] max-extraSmall:text-[20px]  text-center line-height-[5px]  text-slate-50  leading-6">
                   앱 개발 업체  
-                </p>
-                <p className=" text-[35px] 
+                </h1>
+                <h1 className=" text-[35px] 
                 max-md:text-[30px]
                   max-small:text-[25px] max-extraSmall:text-[20px]  text-center text-slate-50 leading-6">
                   홈페이지 제작 업체
-                </p>
+                </h1>
               </div>
               <div className="flex flex-col mb-14 max-extraSmall:mb-7">
                 <p className="text-slate-50">

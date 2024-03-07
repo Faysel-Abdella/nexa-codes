@@ -10,7 +10,9 @@ const Processes = () => {
     id="processes"
     >
       <main>
-        <h2 className="text-[#fff] text-[50px] text-center font-bold tracking-[-1.5px]">
+        <h2 className="text-[#fff] text-5xl  text-center font-bold tracking-[-1.5px]
+        max-medium:text-2xl max-small:text-xl 
+        ">
           진행과정
         </h2>
         <div className="flex justify-center items-center">

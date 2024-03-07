@@ -123,7 +123,7 @@ export default function SliderFrame() {
   };
 
   return (
-    <div id='portfolio '>
+    <div id='portfolio'>
       <div className='bg-[#000000] pt-[9rem] pb-[12rem] px-[14rem] max-medium:px-[5rem]  max-medium:pb-[6rem] max-medium:pt-[4rem]  max-small:pt-[2rem] max-extraSmall:px-[3.5rem] max-verySmall:px-[2rem] max-small:pb-[7rem]  relative medium:py-50'>
         <h1 className='text-white text-center mb-[4rem] max-medium:mb-[2rem] text-[50px]  max-medium:text-[35px] max-small:mb-[2rem]'>
           포트폴리오

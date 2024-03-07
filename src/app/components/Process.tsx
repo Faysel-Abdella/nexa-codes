@@ -29,12 +29,12 @@ const Process = ({
       <h2 className="mt-[17px] text-[35px]  font-bold text-[#fff] tracking-[-1.2px]">
         {title}
       </h2>
-      <p className="mt-[12px] text-[12px] font-normal text-[#fff] tracking-[-0.42px]">
+      <h3 className="mt-[12px] text-[12px] font-normal text-[#fff] tracking-[-0.42px]">
         {description1}
-      </p>
-      <p className="text-[12px] font-normal tracking-[-0.42px] text-[#fff]">
+      </h3>
+      <h3 className="text-[12px] font-normal tracking-[-0.42px] text-[#fff]">
         {description2}
-      </p>
+      </h3>
     </section>
   );
 };

@@ -19,13 +19,13 @@ const SampleTwo = () => {
           max-extraSmall:py-[5px] max-extraSmall:text-nowrap
           "
           >
-            <p
+            <h3
               className="text-[30px] font-semibold tracking-[-1.2px] text-[#3480D2] flex justify-center items-center
             max-extraSmall:text-[16px]
             "
             >
               스마일 코인노래방(강서구청점)
-            </p>
+            </h3>
           </header>
 
           <main
@@ -63,13 +63,13 @@ const SampleTwo = () => {
       "
       >
         <div>
-          <h2
+          <h3
             className="text-[28px] text-[#333] text-center font-semibold tracking-[-1.2px]
           max-extraSmall:text-[16px] max-extraSmall:text-nowrap
           "
           >
             O2O서비스 확장 테스트 베드
-          </h2>
+          </h3>
 
           <div
             className="pl-16 mt-5
@@ -77,7 +77,7 @@ const SampleTwo = () => {
             max-extraSmall:pl-4
           "
           >
-            <p
+            <h3
               className="text-[20px] text-[#A4A4A4] font-normal tracking-[-0.9px]
             relative before:absolute before:content-[' '] before:w-[6px] before:h-[6px] before:bg-[#A4A4A4]  before:rounded-full
             before:top-[50%] before:transform before:translate-y-[-50%] before:left-[-24px]
@@ -85,8 +85,8 @@ const SampleTwo = () => {
             "
             >
               노래방 DX 시스템 직영 운영, 개발
-            </p>
-            <p
+            </h3>
+            <h3
               className="text-[20px] text-[#A4A4A4] font-normal tracking-[-0.9px]
             relative before:absolute before:content-[' '] before:w-[6px] before:h-[6px] before:bg-[#A4A4A4]  before:rounded-full
             before:top-[50%] before:transform before:translate-y-[-50%] before:left-[-24px]
@@ -94,7 +94,7 @@ const SampleTwo = () => {
             "
             >
               21개 호실, 50평 이상의 매장 무인운영
-            </p>
+            </h3>
           </div>
         </div>
       </section>

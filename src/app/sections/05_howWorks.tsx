@@ -58,9 +58,9 @@ const HowNexaWorks = () => {
 
   return (
     <div className='max-container px-4 max-medium:px-0 mt-[200px]'>
-      <h1 className='text-center tracking-tight text-5xl  max-medium:text-2xl max-small:text-xl max-midSmall:text-lg  font-bold text-black my-[6rem] max-medium:my-[2rem] max-small:my-[1.5rem] max-verySmall:my-[1rem]'>
+      <h2 className='text-center tracking-tight text-5xl  max-medium:text-2xl max-small:text-xl max-midSmall:text-lg  font-bold text-black my-[6rem] max-medium:my-[2rem] max-small:my-[1.5rem] max-verySmall:my-[1rem]'>
         넥사코드는 어떻게 일할까요?
-      </h1>
+      </h2>
 
       <div className={`flex gap-[1rem] ${isSmallScreen ? 'flex-col' : ''}`}>
         {isDetailMode1 || isSmallScreen ? (

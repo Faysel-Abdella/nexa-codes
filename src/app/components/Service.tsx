@@ -28,21 +28,21 @@ const Service = ({ title, description, description2, image }: serviceProps) => {
       >
         {title}
       </h2>
-      <p
+      <h3
         className="mt-[15px] text-[#333] text-[18px] font-semibold tracking-[-0.6px]
       max-small:text-[16px] max-small:mt-[8px]
       "
       >
         {description}
-      </p>
+      </h3>
       {description2 && (
-        <p
+        <h3
           className=" text-[#333] text-[18px] font-semibold tracking-[-0.6px]
       max-small:text-[16px]
         "
         >
           {description2!}
-        </p>
+        </h3>
       )}
     </section>
   );

@@ -18,13 +18,13 @@ const SampleOne = () => {
           max-extraSmall:py-[5px]
           "
           >
-            <p
+            <h3
               className="text-[30px] font-semibold tracking-[-1.2px] text-[#3480D2]
             max-extraSmall:text-[20px]
             "
             >
               모두의 노래방
-            </p>
+            </h3>
           </header>
           <main className="flex gap-0 px-[31px] py-[33px]">
             <aside>
@@ -43,20 +43,20 @@ const SampleOne = () => {
       "
       >
         <div>
-          <h2
+          <h3
             className="text-[28px] text-[#333] text-center font-semibold tracking-[-1.2px]
           max-extraSmall:text-[16px] max-extraSmall:text-nowrap
           "
           >
             직접 기획/개발/운영 240만 다운로드앱
-          </h2>
+          </h3>
 
           <div
             className="pl-12 mt-5
           max-extraSmall:mt-3
           "
           >
-            <p
+            <h3
               className="text-[20px] text-[#A4A4A4] font-normal tracking-[-0.9px]
             relative before:absolute before:content-[' '] before:w-[6px] before:h-[6px] before:bg-[#A4A4A4]  before:rounded-full
             before:top-[50%] before:transform before:translate-y-[-50%] before:left-[-24px]
@@ -64,8 +64,8 @@ const SampleOne = () => {
             "
             >
               리뷰 1.6만개, 평점 4.8점
-            </p>
-            <p
+            </h3>
+            <h3
               className="text-[20px] text-[#A4A4A4] font-normal tracking-[-0.9px]
             relative before:absolute before:content-[' '] before:w-[6px] before:h-[6px] before:bg-[#A4A4A4]  before:rounded-full
             before:top-[50%] before:transform before:translate-y-[-50%] before:left-[-24px]
@@ -74,7 +74,7 @@ const SampleOne = () => {
             "
             >
               음악 카테고리 7위(구글스토어)
-            </p>
+            </h3>
           </div>
         </div>
       </section>

@@ -29,7 +29,7 @@ const HeroSection = () => {
         max-extraSmall:mt-[10px]
         "
         >
-          <div
+          <h1
             className="text-center text-white text-[50px]  font-normal font-['Noto Sans KR'] 
          max-largeMedium:text-[40px] 
          max-medium:text-[25px]
@@ -37,8 +37,8 @@ const HeroSection = () => {
           "
           >
             앱 개발 업체
-          </div>
-          <div
+          </h1>
+          <h1
             className="text-center text-white text-[50px]  font-normal font-['Noto Sans KR'] leading-[-1.8]
           max-largeMedium:text-[40px]  
           max-medium:text-[25px]
@@ -47,7 +47,7 @@ const HeroSection = () => {
           >
             {" "}
             홈페이지 제작 업체
-          </div>
+          </h1>
           <div
             className="text-center mt-10  mb-10
           max-largeMedium:mt-5 

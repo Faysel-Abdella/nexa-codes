@@ -63,7 +63,7 @@ const NavBar = () => {
               smooth={true}
               duration={500}
               spy={true}
-              offset={-70}
+              offset={2}
               className="cursor-pointer"
               onClick={() => goToBlog(nav.to)}
             >

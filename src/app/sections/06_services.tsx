@@ -15,9 +15,9 @@ const Services = () => {
     "
     >
       <h2
-        className="text-[#000] text-[50px] text-center font-bold tracking-[-1.5px]
-      max-medium:text-[40px]
-      max-small:text-[25px]
+        className="text-[#000] text-5xl text-center font-bold tracking-[-1.5px]
+        max-medium:text-2xl
+        max-small:text-xl 
       "
       >
         넥사코드가 잘 하는 것

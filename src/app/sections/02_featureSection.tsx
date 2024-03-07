@@ -23,14 +23,14 @@ const FeatureSection = () => {
       max-small:mb-[34px]
       "
       >
-        <p
+        <h2
           className="text-center text-black text-[50px] font-light leading-[1.5]
         max-medium:text-[30px]
         max-small:text-[16px]
         "
         >
           개발사 선정에 <span className="font-bold">고민이 많으시죠?</span>
-        </p>
+        </h2>
       </div>
       <div
         className="flex  justify-center items-center gap-[20px]
@@ -43,28 +43,28 @@ const FeatureSection = () => {
          `}
          onMouseOver={() => setClickedFeature(1)}
         >
-          <p
+          <h2
             className={`mb-[29px] text-center text-[35px] font-medium
           max-small:text-[28px]
           max-small:mb-[20px]
           `}
           >
             01
-          </p>
-          <p
+          </h2>
+          <h2
             className=" text-center text-[35px] font-medium
           max-small:text-[22px]
           "
           >
             제대로 결과물이
-          </p>
-          <p
+          </h2>
+          <h2
             className=" mb-[40px] text-center text-[35px] font-medium
           max-small:text-[22px]
           "
           >
             안나오면 어떡하지?
-          </p>
+          </h2>
           <Image
             src={feature01}
             alt="feature"
@@ -72,7 +72,7 @@ const FeatureSection = () => {
             height={150}
             className="max-small:hw-[200px] max-small:h-[150px]"
           />
-          <div
+          <h2
             className={`mt-[30px] flex justify-center items-center w-[302px] h-[69px] rounded-[34.50px] border border-[#D9D9D9]
             max-small:w-[200px] max-small:h-[40px]
             
@@ -86,7 +86,7 @@ const FeatureSection = () => {
             >
               결과물에 대한 걱정
             </span>
-          </div>
+          </h2>
         </div>
 
         <div
@@ -95,28 +95,28 @@ const FeatureSection = () => {
           `}
           onMouseOver={() => setClickedFeature(2)}
         >
-          <p
+          <h2
             className={`mb-[29px] text-center text-[35px] font-medium
             max-small:text-[28px]
           max-small:mb-[20px]
           `}
           >
             02
-          </p>
-          <p
+          </h2>
+          <h2
             className=" text-center text-[35px] font-medium
                max-small:text-[22px]
           "
           >
             중간에 비용이
-          </p>
-          <p
+          </h2>
+          <h2
             className=" mb-[40px] text-center text-[35px] font-medium
           max-small:text-[22px]
           "
           >
             늘어나진 않는가?
-          </p>
+          </h2>
           <Image
             src={feature03}
             alt="feature"
@@ -124,7 +124,7 @@ const FeatureSection = () => {
             height={150}
             className="max-small:hw-[200px] max-small:h-[150px]"
           />
-          <div
+          <h2
             className={`mt-[30px] flex justify-center items-center w-[302px] h-[69px] rounded-[34.50px] border border-[#D9D9D9]
             max-small:w-[200px] max-small:h-[40px]
             
@@ -138,7 +138,7 @@ const FeatureSection = () => {
             >
               고무줄 같은 비용 책정
             </span>
-          </div>
+          </h2>
         </div>
 
 
@@ -148,30 +148,30 @@ const FeatureSection = () => {
           `}
           onMouseOver={() => setClickedFeature(3)}
         >
-          <p
+          <h2
             className={`mb-[29px] text-center text-[35px] font-medium
             max-small:text-[28px]
           max-small:mb-[20px]
           `}
           >
             03
-          </p>
-          <p
+          </h2>
+          <h2
             className=" text-center text-[35px] font-medium
                max-small:text-[22px]
           
           "
           >
             마감시간은
-          </p>
-          <p
+          </h2>
+          <h2
             className=" mb-[40px] text-center text-[35px] font-medium
           max-small:text-[22px]
           
           "
           >
             잘 지키나?
-          </p>
+          </h2>
           <Image
             src={feature01}
             alt="feature"
@@ -179,7 +179,7 @@ const FeatureSection = () => {
             height={150}
             className="max-small:hw-[200px] max-small:h-[150px]"
           />
-          <div
+          <h2
             className={`mt-[30px] flex justify-center items-center w-[302px] h-[69px] rounded-[34.50px] border border-[#D9D9D9]
             max-small:w-[200px] max-small:h-[40px]
             
@@ -193,7 +193,7 @@ const FeatureSection = () => {
             >
               갑작스런 시간 지연
             </span>
-          </div>
+          </h2>
         </div>
       </div>
     </section>

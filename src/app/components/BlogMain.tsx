@@ -17,28 +17,28 @@ const BlogPost = ({ id, header, description, image, date }: any) => {
           "
         />
         <div>
-          <div className=' text-[26px] leading-10 text-black font-extrabold  mb-2
+          <h3 className=' text-[26px] leading-10 text-black font-extrabold  mb-2
           max-midSmall:text-[20px]
           max-midSmall:font-semibold
           max-small:text-[13px]
           max-small:leading-5
           '>
             {header}
-          </div>
-          <div className='text-[16px] text-black leading-5 font-normal
+          </h3>
+          <h4 className='text-[16px] text-black leading-5 font-normal
           max-midSmall:text-[14px]
           max-small:text-[13px]
           max-small:hidden
-          '>{description}</div>
+          '>{description}</h4>
         </div>
         
       </div>
-      <div className='small:hidden text-[16px] text-black leading-5 font-normal
+      <h4 className='small:hidden text-[16px] text-black leading-5 font-normal
           max-midSmall:text-[14px]
           max-small:text-[13px]
           border-b-0.5 border-light-border
           pb-10
-          '>{description}</div>
+          '>{description}</h4>
     </div>
   );
 }
