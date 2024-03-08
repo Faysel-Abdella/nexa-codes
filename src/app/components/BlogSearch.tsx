@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { Select } from "antd";
+import { Select, Space } from "antd";
 
 import Image from "next/image";
 import icon from "../assets/search_icon.svg";
@@ -59,6 +59,7 @@ const BlogSearch = () => {
 
         <div className="max-midSmall:flex max-midSmall:flex-col max-midSmall:items-center max-midSmall:justify-center">
           <div className="rounded-full">
+            <Space className="rounded-full">
             <Select
               defaultValue="option_1"
               style={{ width: 110, fontSize: 24, borderRadius: "100px", 
@@ -76,6 +77,7 @@ const BlogSearch = () => {
                 { value: "option_3", label: "옵션3" },
               ]}
             />
+            </Space>
           </div>
 
           {/* <div className="flex gap-2 items-center flex-shrink-0 bg-white  px-6 py-3 rounded-full border border-gray-300 cursor-pointer">
