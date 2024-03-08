@@ -62,6 +62,7 @@ const BlogSearch = () => {
             <Space className="rounded-full">
               <Select
                 defaultValue="option_1"
+
                 style={{
                   width: 110,
                   fontSize: 24,
@@ -85,20 +86,6 @@ const BlogSearch = () => {
               />
             </Space>
           </div>
-
-          {/* <div className="flex gap-2 items-center flex-shrink-0 bg-white  px-6 py-3 rounded-full border border-gray-300 cursor-pointer">
-            <button
-              type="submit"
-              className="text-nowrap text-gray-700 text-[15px]"
-            >
-              최신순
-            </button>
-            <Image
-              src={unfilled_icon}
-              alt="Down arrow"
-              className="w-[19px] h-[13px]"
-            />
-          </div> */}
 
           <p
             className="text-[15px] mt-2 text-veryLight-gray

@@ -13,14 +13,14 @@ const Principles = () => {
     max-small:pt-[80px]
     "
     >
-      <h3
+      <h2
         className="text-[#333] text-[50px] text-center font-light tracking-[-1.5px] 
       max-small:text-[26px]
       max-small:px-1
       "
       >
         넥사코드를 선택하세요!
-      </h3>
+      </h2>
       <h2
         className="text-[#333] text-[50px] text-center font-bold tracking-[-1.5px]
       max-small:text-[26px]

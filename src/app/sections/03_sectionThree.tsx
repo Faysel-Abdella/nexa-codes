@@ -44,7 +44,7 @@ const AboutCompany = () => {
           >
             넥사코드는 자사 서비스의
           </h2>
-          <div
+          <h2
             className="relative text-[#333] z-50 text-[50px] font-bold font-['Noto Sans KR'] tracking-[-1.5] 
           after:content-[' '] after:w-full after:h-4  after:absolute after:left-0 after:bottom-3 after:bg-yellow-400 after:z-[-1]
            max-medium:text-[35px] max-medium:after:h-3
@@ -52,7 +52,7 @@ const AboutCompany = () => {
           "
           >
             성공 경험을 바탕으로 개발합니다
-          </div>
+          </h2>
         </div>
       </div>
     </section>
