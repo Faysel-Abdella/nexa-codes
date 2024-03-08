@@ -60,23 +60,29 @@ const BlogSearch = () => {
         <div className="max-midSmall:flex max-midSmall:flex-col max-midSmall:items-center max-midSmall:justify-center">
           <div className="rounded-full">
             <Space className="rounded-full">
-            <Select
-              defaultValue="option_1"
-              style={{ width: 110, fontSize: 24, borderRadius: "100px", 
-              height: 50 }}
-              suffixIcon={<Image
-                src={unfilled_icon}
-                alt="Down arrow"
-                className="w-[16px] h-[10px]"
-              />}
-              // className="bg-white  rounded-full border border-gray-300 cursor-pointer"         
-                   
-              options={[
-                { value: "option_1", label: "최신순" },
-                { value: "option_2", label: "옵션2" },
-                { value: "option_3", label: "옵션3" },
-              ]}
-            />
+              <Select
+                defaultValue="option_1"
+                style={{
+                  width: 110,
+                  fontSize: 24,
+                  borderRadius: "100px",
+                  height: 50,
+                }}
+                suffixIcon={
+                  <Image
+                    src={unfilled_icon}
+                    alt="Down arrow"
+                    className="w-[16px] h-[10px]"
+                  />
+                }
+                // className="bg-white  rounded-full border border-gray-300 cursor-pointer"
+
+                options={[
+                  { value: "option_1", label: "최신순" },
+                  { value: "option_2", label: "옵션2" },
+                  { value: "option_3", label: "옵션3" },
+                ]}
+              />
             </Space>
           </div>
 
@@ -108,6 +114,7 @@ const BlogSearch = () => {
         <div className="flex flex-wrap flex-row gap-2 mt-2">
           {allTags.map((tag, index) => (
             <div
+              key={index}
               className={`flex justify-center items-center border border-light-border rounded-full py-1 px-[16px] cursor-pointer   text-[14px]
               ${tags[index] ? "bg-black text-white" : "text-light-gray"}
             
