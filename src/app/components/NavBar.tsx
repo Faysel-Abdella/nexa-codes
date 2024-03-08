@@ -26,7 +26,7 @@ const NavBar = () => {
   return (
     <header className="max-container">
       <nav
-        className="flex justify-between items-center max-md:items-start pt-[30px] ml-[100px] mr-[60px] 
+        className="flex justify-between items-center max-md:items-start pt-[25px] ml-[100px] mr-[60px] 
         max-medium:pt-[20px] max-medium:ml-0 max-medium:mr-0 max-medium:px-5
       max-md:pt-5 max-md:ml-0 max-md:mr-0 max-md:px-5
       max-small:pt-2 
