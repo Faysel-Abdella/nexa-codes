@@ -13,6 +13,7 @@ const PartnersLogo = () => {
             <div key={index} className={`w-1/2 h-1/2 flex items-center justify-center ${index == 14 ? "max-sm:col-span-2" : ""}`}>
               <Image
                 src={icon.src}
+                loading="lazy"
                 alt="Partner logo"
                 // width={100}
                 // height={100}

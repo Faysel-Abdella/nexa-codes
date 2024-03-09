@@ -28,10 +28,10 @@ const SampleOne = () => {
           </header>
           <main className="flex gap-0 px-[31px] py-[33px]">
             <aside>
-              <Image src={sampleOne} alt="sample_one" />
+              <Image src={sampleOne} loading="lazy" alt="sample_one" />
             </aside>
             <aside>
-              <Image src={sampleTwo} alt="sample_one" />
+              <Image src={sampleTwo} loading="lazy" alt="sample_one" />
             </aside>
           </main>
         </div>

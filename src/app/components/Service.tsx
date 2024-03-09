@@ -15,6 +15,7 @@ const Service = ({ title, description, description2, image }: serviceProps) => {
       <div className="">
         <Image
           src={image}
+          loading="lazy"
           alt="one of our services"
           className="w-[250px] h-[250px]"
         />

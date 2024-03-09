@@ -9,6 +9,7 @@ const BlogPost = ({ id, header, description, image, date }: any) => {
       max-small:gap-4
       '>
         <Image
+        loading="lazy"
           src={image}
           alt='Blogger image'
           className="h-[91px] w-[91px] rounded-[10px]

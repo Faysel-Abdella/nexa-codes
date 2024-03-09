@@ -67,6 +67,7 @@ const FeatureSection = () => {
           </h2>
           <Image
             src={feature01}
+            loading="lazy"
             alt="feature"
             width={242}
             height={150}
@@ -119,6 +120,7 @@ const FeatureSection = () => {
           </h2>
           <Image
             src={feature03}
+            loading="lazy"
             alt="feature"
             width={242}
             height={150}
@@ -174,6 +176,7 @@ const FeatureSection = () => {
           </h2>
           <Image
             src={feature01}
+            loading="lazy"
             alt="feature"
             width={242}
             height={150}

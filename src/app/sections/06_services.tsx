@@ -32,6 +32,7 @@ const Services = () => {
           title="앱 개발"
           description="개발하지 못하면 환불해드립니다"
           image={serviceOne}
+          
         />
         <Service
           title="홈페이지 제작"

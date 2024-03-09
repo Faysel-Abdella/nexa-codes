@@ -37,10 +37,10 @@ const SampleTwo = () => {
           >
             <aside className="flex flex-col gap-[4px]">
               <div>
-                <Image src={secondSampleOne} alt="one of our samples" />
+                <Image src={secondSampleOne} loading="lazy" alt="one of our samples" />
               </div>
               <div>
-                <Image src={secondSampleTwo} alt="one of our samples" />
+                <Image src={secondSampleTwo} loading="lazy" alt="one of our samples" />
               </div>
             </aside>
 
@@ -48,6 +48,7 @@ const SampleTwo = () => {
               <div className="max-extraSmall:h-full">
                 <Image
                   src={secondSampleThree}
+                  loading="lazy"
                   alt="one of our samples"
                   className="max-extraSmall:h-full"
                 />

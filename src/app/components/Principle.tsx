@@ -12,7 +12,7 @@ const Principle = ({
 }) => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <Image src={image} alt="one of our principles" />
+      <Image src={image} loading="lazy" alt="one of our principles" />
       <div
         className="mt-[36px] text-center
       max-medium:mt-[25px]

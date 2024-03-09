@@ -5,6 +5,7 @@ export default function HowCard({ detailedImage, text, header, buttonText }: any
     <div className='relative max-medium:mx-[4rem] max-extraSmall:mx-[2rem] '>
       <Image
         src={detailedImage}
+        loading="lazy"
         alt='Detailed'
         className='inline h-[520px] max-medium:h-[350px] max-extraSmall:h-[260px] max-medium:w-[700px] rounded-[30px]'
         priority={true}

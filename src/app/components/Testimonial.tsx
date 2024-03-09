@@ -19,7 +19,7 @@ export default function Testimonial({ description1, description2, description3, 
       <div className='flex justify-between items-center border-b border-solid border-gray-300 pb-6 mb-4 mx-2'>
         <div className='text-xs text-light-gray font-semibold'>{name}</div>
         <div className='flex items-center'>
-          <Image src={review} className='w-[90px]' alt='5 star' />
+          <Image src={review} loading="lazy" className='w-[90px]' alt='5 star' />
           <p className='text-500 font-semibold'>5.0</p>
         </div>
 
