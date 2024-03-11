@@ -23,11 +23,11 @@ export default function Hero() {
   };
 
   return (
-    <div className="blog-bg px-2 py-6 max-medium:pt-2 relative ">
+    <div className="blog-bg px-2 pt-0 py-6 max-medium:pt-2 relative ">
       {/* the navigation part */}
-      <div className=" z-10">
-        <nav className=" flex justify-between mx-10 max-medium:mx-0 my-4 mt-0 relative
-        pt-[45px] ml-[100px] mr-[60px] 
+      <div className="max-container z-10">
+        <nav className=" flex justify-between items-center mx-10 max-medium:mx-0 my-4 mt-0 relative
+        pt-[25px] ml-[100px] mr-[60px] 
         max-medium:pt-[20px] max-medium:ml-0 max-medium:mr-0 max-medium:px-5
       max-md:pt-5 max-md:ml-0 max-md:mr-0 max-md:px-5
       max-small:pt-2 
@@ -40,7 +40,7 @@ export default function Hero() {
             <Image
               src={logo}
               alt="Logo"
-              className="w-[50px] h-[24px] max-md:w-[35px] max-md:h-[20px] max-md:items-start"
+              className="w-[76px] h-[104px] max-md:w-[35px] max-md:h-[20px] max-md:items-start"
             />
           </div>
 
@@ -52,42 +52,42 @@ export default function Hero() {
         max-md:justify-center max-md:items-center max-md:gap-5 max-md:py-8 max-md:pb-0
         `}
           >
-            <div className="z-10 flex max-md:flex-col max-md:pt-5 max-md:items-center max-md:gap-7 space-x-6">
-              <div className="flex self-center ml-8"
+            <div className="z-10 flex max-md:flex-col max-md:pt-5 max-md:items-center max-md:gap-7 gap-[35px]">
+              <div className="flex  ml-8"
               onClick={() => setNavBar(false)}
               >
                 <a className="text-white font-medium cursor-pointer
-                font-poppins text-[16px]  leading-[-0.54
+                font-poppins text-[16px]  leading-[-0.54]
                 "
                 
                 >블로그</a>
                 <Image
                   src={filledArrow}
                   alt="Down arrow"
-                  className="fa-solid fa-sort-down text-white cursor-pointer"
+                  className="self-start mt-2 fa-solid fa-sort-down text-white cursor-pointer"
                 />
               </div>
-              <a className="text-white  font-medium cursor-pointer  font-poppins text-[16px] leading-[-0.54"
+              <a className="text-white  font-medium cursor-pointer  font-poppins text-[16px] leading-[-0.54]"
               onClick={() => setNavBar(false)}
               
               >
                 서비스 특징
               </a>
-              <a className="text-white font-medium cursor-pointer font-poppins text-[16px]  leading-[-0.54"
+              <a className="text-white font-medium cursor-pointer font-poppins text-[16px]  leading-[-0.54]"
               onClick={() => setNavBar(false)}
               
               >강점</a>
-              <a className="text-white font-medium cursor-pointer font-poppins text-[16px] leading-[-0.54"
+              <a className="text-white font-medium cursor-pointer font-poppins text-[16px] leading-[-0.54]"
               onClick={() => setNavBar(false)}
               
               >투자사</a>
-              <a className="text-white font-medium cursor-pointer font-poppins text-[16px] leading-[-0.54"
+              <a className="text-white font-medium cursor-pointer font-poppins text-[16px] leading-[-0.54]"
               onClick={() => setNavBar(false)}
               
               >
                 포트폴리오
               </a>
-              <a className="text-white font-medium cursor-pointer font-poppins text-[16px] leading-[-0.54">진행과정</a>
+              <a className="text-white font-medium cursor-pointer font-poppins text-[16px] leading-[-0.54]">진행과정</a>
             </div>
           </div>
 
